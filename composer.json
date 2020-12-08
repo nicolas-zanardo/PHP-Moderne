@@ -1,7 +1,9 @@
 {
     "name": "niko/moderne-php",
     "description": "Tutorial PHP",
-    "require": {},
+    "require": {
+        "nesbot/carbon": "^2.42"
+    },
     "autoload": {
         "psr-4": {
             "App\\": "src/"
